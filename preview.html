@@ -23,7 +23,7 @@
         }
 
         // set iframe src
-        frame.src = `./tasks/html/${task}/index.html`;
+        frame.src = `./tasks/html/${task?.toLowerCase()}/index.html`;
         // set iframe height
         frame.height = window.innerHeight - 100;
         // set iframe width
