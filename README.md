@@ -5,4 +5,4 @@
 Some school projects I'll be in the requirement of making.
 
 ## Index
-- [Task #1](https://raw.githubusercontent.com/jmalawka/school/main/tasks/html/lists/task.png) - HTML Lists - [Source Code](https://github.com/jmalawka/school/blob/main/tasks/html/lists/index.html) - [Preview](https://jmalawka.github.io/school/tasks/html/lists/index.html)
+- [Task #1](https://raw.githubusercontent.com/jmalawka/school/main/tasks/html/lists/task.png) - HTML Lists - [Source Code](https://github.com/jmalawka/school/blob/main/tasks/html/lists/index.html) - [Preview](https://jmalawka.github.io/school/preview?task=lists)
