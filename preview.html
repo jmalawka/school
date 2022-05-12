@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview</title>
+</head>
+<body>
+    <div id="project">
+        <div id="title">
+        </div>
+        <button id="back"> Back </button>
+        <iframe id="frame"></iframe>
+    </div>
+    <script>
+        let frame = document.getElementById('frame');
+        let title = document.getElementById('title');
+        // get url parameter 'task'
+        let task = window.location.search.substring(1).split('=')[1];
+        if (!task) {
+            window.history.back();
+        }
+
+        // set iframe src
+        frame.src = `./tasks/html/${task}/index.html`;
+        // set iframe height
+        frame.height = window.innerHeight - 100;
+        // set iframe width
+        frame.width = window.innerWidth - 20;
+
+        // set title
+        title.innerText = task.replace(/_/g, ' ').substring(0, 1).toUpperCase() + task.replace(/_/g, ' ').substring(1);
+   
+        // set back button
+        let back = document.getElementById('back');
+        back.addEventListener('click', () => {
+            window.history.back();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        #project {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-family: 'Open Sans', sans-serif;
+        }
+        #title {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        #frame {
+            border: none;
+            border-top: 4px solid #ccc;
+            overflow: hidden;
+        }
+        #back {
+            font-size: 1.5em;
+            font-weight: 200;
+            margin-top: -5vh;
+            margin-bottom: 20px;
+            align-self: flex-start;
+        }
+    </style>
+
+</body>
+</html>
