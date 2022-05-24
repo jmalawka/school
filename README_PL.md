@@ -5,5 +5,6 @@
 Niektóre projekty szkolne, które już zrobiłem/aktualnie robię.
 
 ## Indeks
-- [Zadanie #1](https://raw.githubusercontent.com/jmalawka/school/main/tasks/html/lists/task.png) - "Listy w HTML" - [Kod źrodłowy](https://github.com/jmalawka/school/blob/main/tasks/html/lists/index.html) - [Podgląd](https://jmalawka.github.io/school/preview?task=lists)
-- [Zadanie #2](https://raw.githubusercontent.com/jmalawka/school/main/tasks/html/tables/task.pdf) - "Tabele w HTML" - [Kod źrodłowy](https://github.com/jmalawka/school/blob/main/tasks/html/tables/index.html) - [Podgląd](https://jmalawka.github.io/school/preview?task=tables)
+- [Zadanie #1](https://raw.githubusercontent.com/jmalawka/school/main/tasks/html/lists/task.png) - Listy w HTML - [Kod źrodłowy](https://github.com/jmalawka/school/blob/main/tasks/html/lists/index.html) - [Podgląd](https://jmalawka.github.io/school/preview?task=lists)
+- [Zadanie #2](https://raw.githubusercontent.com/jmalawka/school/main/tasks/html/tables/task.pdf) - Tabele w HTML - [Kod źrodłowy](https://github.com/jmalawka/school/blob/main/tasks/html/tables/index.html) - [Podgląd](https://jmalawka.github.io/school/preview?task=tables)
+- [Zadanie #3](https://raw.githubusercontent.com/jmalawka/school/main/tasks/html/unsymetrical-tables/task.pdf) - Tabele niesymetryczne w HTML - [Kod źrodłowy](https://github.com/jmalawka/school/blob/main/tasks/html/unsymetrical-tables/index.html) - [Podgląd](https://jmalawka.github.io/school/preview?task=tables)
